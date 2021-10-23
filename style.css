@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: lightpink;
+    font-size: 0;
+}
+
+header {
+    font-size:initial;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header div {
+    margin-right: 100px;
+}
+
+header>div>a {
+    color: #ebe8e8;
+    text-decoration: none;
+    transition: color 1s, transform 2s;
+}
+
+#logo {
+    font-family: 'Stick No Bills';
+    color: #ebe8e8;
+    font-size: 2em;
+    transition: color 1s, transform 2s;
+}
+
+#logo:hover {
+    color: lightpink;
+    transform: scale(1.1);
+}
+
+header>div>a:hover {
+    color: lightpink;
+    transform: scale(1.5);
+    text-decoration: none;
+}
+
+
+section {
+    font-size: initial;
+}
+
+.firstsection {
+    display: flex;
+    justify-content:space-around;
+}
+
+img {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    width: 390px;
+    height: 390px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    font-size:initial;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+footer div p {
+    font-family: 'Stick No Bills';
+    color:#ebe8e8;
+    font-size: 2em;
+    transition: color 1s, transform 2s;
+}
+
+footer div p:hover {
+    color: lightpink;
+    transform: scale(1.1);
+}
+
